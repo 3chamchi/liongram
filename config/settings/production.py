@@ -31,7 +31,7 @@ DATABASES = {
 
 STATIC_ROOT = BASE_DIR / 'static'
 
-LOG_FILE = BASE_DIR / '/log/django.log'
+LOG_FILE = '/log/django.log'
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': True,
